@@ -1,1 +1,266 @@
-Hello First User Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Koma Web Designer</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="img/icon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <!-- custom style -->
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+  <!-- Include the CSS -->
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand icon" href="#myPage"><img src="img/icon.png" width="40" height="40"><span class="icon-title">Koma Web Designer</span></a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="active" href="#myPage"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+        <li><a class="active" href="#about"><span class="glyphicon"></span>ABOUT</a></li>
+        <li><a class="active" href="#work"><span class="glyphicon"></span>WORK</a></li>
+        <li><a class="active" href="#contact"><span class="glyphicon"></span>CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================My Carousel Goes Here===================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/project-00.jpeg" alt="New York" width="1200" height="500">
+        <div class="carousel-caption">
+          
+          <h4><strong>"One of the best programming skills you can have is knowing when to walk away for awhile."</strong></h4>
+          <h3>- Oscar Godson</h3>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="img/project-03.jpeg" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+         
+          <h4><strong>“Without requirements or design, programming is the art of adding bugs to an empty text file.”</strong></h4>
+           <h3>- Louis Srygley</h3>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="img/project-04.jpeg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+         
+          <h4><strong>"No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first."</strong></h4>
+           <h3>- Andy Hunt</h3>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+ <br/><br/>
+<!-- ==========Carousel End============= -->
+ 
+
+<!-- Container (About Section) -->
+<div id="about" class="container text-center">
+  <h3 class="text-center hr-title">ABOUT</h3>                
+        <div class="col-md-4">
+          <img  class="img-circle" src="img/me.jpg" alt="Profile Picture" width="250" height="250">  
+          <br>
+          <h5><strong>MARK KOMAKECH</strong></h5> 
+          <h6><strong>Frontend | Android</strong></h6>
+        </div><br><br>
+        
+           <div class="col-sm-8">
+            <h2 class="text-left">Hi,</h6>
+            <p class="text-left">I am Mark Komakech, a front-end developer from Uganda [ currently living in Nairobi, Kenya ] and i like to focus on client-side development for all devices using web technologies [ HTML, CSS &amp; JavaScript ].
+
+And to add on, i develop mobile apps specifically android, plus some wordpress, PHP, MySQL and Ruby on rails.
+
+I am available as Front-End Developer work, if you need a hand for some reason to develop and setup some scalable &amp; maintainable front-end and mobile applications. I also like to work on front-end performance and adaptive/responsive web design.</p>
+            
+          </div>  
+         
+             
+</div><!-- About End -->
+
+<!-- Container (Gallery Section) --><br><br><br>
+<div id="work" class="bg-1">
+  <div class="container">
+    <h3 class="text-center hr-title">WORK</h3> 
+     <div class="column">
+        <div class="row"  align="center">
+          <!-- Header Button --> 
+            <a class="btn btn-rounded btn-bordered-primary filter-button" data-filter="all"><span class="glyphicon"></span> All</a>
+            <a class="btn btn-rounded btn-bordered-primary filter-button" data-filter="android"><span class="glyphicon"></span> Android</a>
+            <a class="btn btn-rounded btn-bordered-primary filter-button" data-filter="design"><span class="glyphicon"></span> Design</a>
+            <a class="btn btn-rounded btn-bordered-primary filter-button" data-filter="frontend"><span class="glyphicon"></span> Frontend</a>
+            <a class="btn btn-rounded btn-bordered-primary filter-button" data-filter="framework"><span class="glyphicon"></span> Framework</a>
+        </div>
+
+          <!-- Gallery Grid -->
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <img src="img/project-00.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter design">
+                <img src="img/project-03.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="gcol-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter frontend">
+                <img src="img/project-07.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter framework">
+                <img src="img/project-02.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter design">
+                <img src="img/project-00.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <img src="img/project-04.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter framework">
+                <img src="img/project-00.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <img src="img/project-08.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter design">
+                <img src="img/project-01.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter framework">
+                <img src="img/project-03.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter framework">
+               <img src="img/project-05.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+
+            <div class="col-md-2 gallery_project col-lg-4 col-md-4 col-sm-4 col-xs-6 filter design">
+                <img src="img/project-07.jpeg" width="365" height="365" class="img-responsive">
+            </div>
+        </div>
+    </div>
+ 
+</div> <!--Gallery End -->
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center hr-title">CONTACT</h3> 
+  <p class="text-center"><em><strong>Get in touch, I'd love to hear from you!.</em></strong></p><br>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p><strong>Feel free to drop me a few notes.</strong></p><br>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Kilimani Nairobi, Kenya</p>
+      <p><span class="glyphicon glyphicon-phone"></span>  Cell phone: +254 705 951 353</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Email: koma.web.designer@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Full name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email address" type="email" required>
+        </div>
+        <div class="col-sm-12 form-group">
+          <input class="form-control" id="phone" name="phone" placeholder="Phone number" type="text" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <div class="col-md-2">  
+            <button class="btn btn-primary pull-right btn-8 enjoy-css text-right" type="submit">Send</button>
+          </div>  
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+</div> <!--Contact End -->
+
+<!-- Add Google Maps -->
+<div id="googleMap"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(1.2854753.7797034);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh5yHeQllxJldRMiVckk-Uc-qmc2p7prw&callback=myMap"></script>
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+<div class="row">
+<div class="col-sm-6 copyrt xs-center">
+  2017 &copy; All Rights Reserved. <a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a>
+</div>
+<div class="col-sm-6 text-right xs-center">
+  <ul class="list-inline footer-social">
+    <li><a href="https://www.facebook.com/KomaWebDesigner"><i class="fa fa-facebook fa-2x"></i></a></li>
+    <li><a href="https://twitter.com/KomaWebDesigner"><i class="fa fa-twitter fa-2x"></i></a></li>
+    <li><a href="https://github.com/KomaWebDesigner/"><i class="fa fa-github fa-2x"></i></a></li>
+    <li><a href="https://plus.google.com/111292899119336515864"><i class="fa fa-google-plus fa-2x"></i></a></li> 
+  </ul>
+</div>
+</div>
+</footer>
+<!-- js script  -->
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>

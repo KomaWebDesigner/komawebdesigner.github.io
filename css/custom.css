@@ -1,0 +1,431 @@
+@charset "UTF-8";
+
+/*custom css style*/
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+@import url(https://fonts.googleapis.com/css?family=Croissant+One);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+/* 
+*  ================================                       
+*    main customization below                      
+*  ================================
+*/
+/*main body start*/
+  body {
+     /* font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color:#dddfe6;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 5px;      
+      font-size: 20px;
+      color: #111;
+      padding: 30px;
+
+  }
+  .container {
+      padding: 80px 120px;
+  } 
+   .carousel-indicators li {
+    background-color: ##337ab7;
+    border:2px solid #09a751;
+   }
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      padding: 60px
+      margin-bottom: 120px;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+      padding: 90px
+
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      background:#c9d6de;
+       color: #111;
+
+  }
+  .bg-1 h3 {  
+    color: #111;
+
+  }
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+ 
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+ .modal-header, h4, .close {
+     background-color: #333; 
+      color: #fff !important;
+      text-align: center;
+      font-size:16px;
+      padding: 20px;
+     /* opacity: .3;*/
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  } 
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #005f6b;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #008c9e !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color:#252c41;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }/*main body end*/
+
+  .footer-col-item .item-contact a {
+  color: #545454;
+  display: inline-block;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.footer-col-item .item-contact a .link-id {
+  color: #ffffff;
+  margin-left: 0;
+  margin-right: 6px;
+}
+.footer-col-item span {
+  margin-left: 7px;
+}
+.footer-col-item .item-contact a {
+  color: #545454;
+}
+
+.socialMedia-footer {
+  margin-bottom: 20px;
+}
+.socialMedia-footer > a {
+  display: inline-block;
+  margin: 0 8px;
+}
+.footer-bottom-layout {
+  text-align: center;
+}
+.footer-col-item {
+  min-height: 140px;
+}
+
+address {
+  color: #545454;
+}
+.nb-footer .footer-single {
+    margin-top: 30px;
+}
+
+/* 
+*  ================================                       
+*    Additional customization below 
+*              GALLERY                     
+*  ================================
+*/
+
+
+/*icon*/
+
+.navbar-brand>img {
+    vertical-align: middle;
+    position: absolute;
+    top: 6px;
+    bottom: 40px;
+    margin-top: 0;
+}
+.icon-title {
+   
+    position: absolute;
+    font-size: 16px;
+    top: 6px;
+    bottom: 40px;
+    margin-top: 0;
+    position: absolute;
+    margin: 8px;
+    float: right;
+    padding-left: 40px;
+
+}
+.gallery-project {
+   border-radius: 10px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+ 
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+ 
+
+*/
+/*
+*=================================
+*             Button Styles 
+*==================================
+*/
+
+  
+.btn {
+    transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    border-radius: 0px;
+    margin-top: 10px
+}
+
+.btn-rounded {
+    border-radius: 50px
+}
+ 
+
+.btn-bordered-primary {
+    color: #428BCA;
+    background: #FFFFFF;
+    border: 2px solid #428BCA
+}
+
+.btn-bordered-primary:hover {
+    color: #FFFFFF;
+    background: #428BCA;
+    border: 2px solid #FFFFFF
+}
+
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_project {
+    margin-bottom: 30px;
+}
+
+
+/* 
+*  ================================                       
+*    Additional customization below                      
+*  ================================
+*/
+
+ 
+
+.form-control {
+    border-radius: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/*Social footer*/
+
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bg-primary {
+    background-color: #000 !important;
+}
+
+.bg-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 14px 4px;
+    color: #ececec;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.bg-circle-outline {
+    width: 50px;
+    height: 50px;
+    color: smoke;
+    padding: 8px 2px;
+    border: 2px solid;
+    border-color: smoke;
+    border-radius: 50%;
+}
+
+.bg-circle a, a:hover, .media a:focus {
+    text-decoration: none !important;
+    outline: none;
+    color: #ececec;
+}
+
+.bg-circle-outline a, a:hover, .media a:focus {
+    text-decoration: none !important;
+    outline: none;
+    color: #ececec;
+}
+
+*/
+/* 
+*  ================================                       
+*    Additional customization below                      
+*  ================================
+*/
+
+ 
+
+
+/*==================Gallery Filter=================*/
+
+.hr-title
+{
+    font-size: 20px;
+    color:  #30A9DE;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.hr-title:after {
+  position: absolute;
+    content: "";
+    position: absolute;
+    width: 9.5%;
+    left: 45.5%;
+    height: 35px;
+    text-align: center;
+    border-bottom: 1px solid #6d819c;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_project
+{
+    margin-bottom: 30px;
+}
+
+/*Send Button*/
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 50px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: .5px solid rgb(38, 169, 245);
+  -webkit-border-radius: 40px;
+  border-radius: 35px;
+  font: normal 16px "Domine Font Family", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgb(38, 169, 245);
+}
+
+ 
+
+.btn-rounded {
+    border-radius: 50px;
+    margin: 40px;
+}
